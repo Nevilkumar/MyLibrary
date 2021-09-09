@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('shared/variables.css');
+@import url('shared/header.css');
+@import url('shared/buttons.css');
+@import url('shared/form.css');
+@import url('shared/author.css');
+@import url('shared/books.css');
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+:root{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--color-text-light);
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background: #182848; 
+    /* background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  
+    background: linear-gradient(to right, #182848, #4b6cb7);  */
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+    margin-bottom: 3rem;
+}
+
+.inner-container{
+    margin:0 2rem;
+}
+
+.page-header{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.error-message{
+    color: red;
+}
+
+img{
+    border-radius: 4px;
+}
