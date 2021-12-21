@@ -1,17 +1,25 @@
 
 .book-cover{
-    width: 200px;
+    width: 240px;
+    border-radius: 8px;
+    border: 4px solid #4682b4;
 }
 
 .book-cover-large{
     width: 280px;
+    border-radius: 8px;
+    border: 4px solid #4682b4;
+    transition: all 250ms ease-out;
+}
+.book-cover-large:hover{
+    transform: scale(1.05);
 }
 
 .book-grid{
     display: grid;
     justify-content: center;
     grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fill,200px);
+    grid-template-columns: repeat(auto-fill,240px);
 }
 .book-grid-large{
     grid-template-columns: repeat(auto-fill,325px);

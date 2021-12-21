@@ -1,24 +1,25 @@
-
-
 .btn{
     border: none;
     outline: none;
     border-radius: 4px;
-    padding: 0.2rem 0.8em;
+    padding: 0.4rem 1.4rem;
     font-size: 1.2rem;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    margin-top: 8px;
 }
 
 .btn-primary{
-    color: black;
-    background-color: #157DEC;
+    color: #182848;
+    font-weight: bold;
+    background-color: #5b84c4;
 }
 .btn-danger{
-    color: black;
-    background-color: #f44336;
+    color: #182848;
+    font-weight: bold;
+    background-color: #f65d52;
 }
 
 .button-row{

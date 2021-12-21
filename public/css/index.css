@@ -19,12 +19,14 @@
 
 *,*::before,*::after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     background: #182848; 
     /* background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  
-    background: linear-gradient(to right, #182848, #4b6cb7);  */
+    background: linear-gradient(to right, #182848, #4b6cb7);  */    
 }
 
 .container{
@@ -40,6 +42,8 @@ body{
 .page-header{
     font-size: 1.6rem;
     font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .error-message{
